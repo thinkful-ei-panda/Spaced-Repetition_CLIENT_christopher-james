@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+}
+
+.registration>p {
+    font-size: 1.15em;
+}
+.registration>h2 {
+    margin: -5px 0 20px 0;
+} 
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}

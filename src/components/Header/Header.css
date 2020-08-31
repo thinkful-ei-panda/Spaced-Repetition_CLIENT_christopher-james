@@ -1,0 +1,16 @@
+.header {
+    font-size: 1.125em;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgrey;    
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+    background-color: lightgrey;
+}

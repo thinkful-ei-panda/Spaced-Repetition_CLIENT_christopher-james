@@ -1,0 +1,16 @@
+.regForm {
+    margin-top: -35px;
+}
+
+.regElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.Label, .Input {
+ padding: 10px;
+ margin: 0 0 2px 0;
+ font-size: 19px;
+}
