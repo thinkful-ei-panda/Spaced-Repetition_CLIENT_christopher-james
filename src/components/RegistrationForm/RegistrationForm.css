@@ -1,3 +1,31 @@
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.registration>p {
+    margin: 5px 25px 10px;
+    font-size: 1.15em;
+    color: rgb(47, 0, 0);
+    font-weight: 500;
+    text-align: left;
+    align-self: center;
+}
+
+.registration>h2 {
+    margin: 5px -10px 20px;
+    padding: 3px 0 10px;
+    color: whitesmoke;
+    font-size: 2.5em;
+    background-color: red;
+    text-align: center;
+    font-weight: 800;
+    border-top: 5px solid yellow;
+    border-bottom: 10px solid yellow;
+} 
+
 .regForm {
     margin-top: -35px;
 }
@@ -9,8 +37,51 @@
     margin: 20px 10px;
 }
 
-.Label, .Input {
- padding: 10px;
- margin: 0 0 2px 0;
- font-size: 19px;
+
+.Label {
+    padding: 9px 10px;
+    margin: -5px;
+    font-size: 1.25em;
+    color: rgb(47, 0, 0);
+    font-weight: 700;
+}
+
+
+.Input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 9px 10px;
+    margin: 0 0 -10px;
+    font-size: 1.25em;
+    color: blue;
+    font-weight: 700;
+}
+.Input:focus{
+    outline: none;
+    box-shadow: 0 0 4px 4px rgba(72, 255, 66, 0.643);
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer>.Button {
+    width: 35%;
+    font-size: 1.35em;
+    padding: 10px;
+    margin: 8px 0 14px;
+    align-self: center;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(72, 255, 66);
+    color: rgba(163, 0, 0, 0.808);
+    font-weight: 800;
+}
+.footer>a {
+    color: rgb(47, 0, 0);
+    font-size: 1.15em;
+    text-decoration: none;
 }

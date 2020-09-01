@@ -1,16 +1,36 @@
 .header {
-    font-size: 1.125em;
-}
-.header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: lightgrey;    
+    background-color: rgb(255, 0, 0); 
+    padding: 15px 0;  
+    font-size: 1.185em;
+    
+    margin: -20px 0 0 0;
+    border-bottom: 10px solid yellow;
 }
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 22px;
-    background-color: lightgrey;
+    margin: -10px -45px 0;
+
+}
+.header>.nav>a {
+    border: 2px solid whitesmoke;
+    padding: 5px 8px;
+    margin: -3px 0 3px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.header>h1>a {
+    color: whitesmoke; 
+    text-decoration: none;
+    font-weight: 800;
+}
+.header>.nav>a  {
+    color: rgb(255, 0, 0);  
+    text-decoration: none;
 }
