@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <metahtml lang="en">
+
+    <head>
+      <meta charset="utf-8" />
+      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+      <meta name="viewport">
+      <meta name="description" content="">
+      <meta name="author" content="SitePoint">
+      <link rel="stylesheet" href="css/styles.css?v=1.0">
+    </head>
+
+<body>
+
+  <header>
+    <div class="grid-container">
+      <div class="menu-icon">
+        <i class="fas fa-bars header__menu"></i>
+      </div>
+
+      // Styles and structure for our simplified dashboard side nav content
+<style>
+  .sidenav {
+    display: flex; /* Will be hidden on mobile */
+    flex-direction: column;
+    grid-area: sidenav;
+    background-color: #394263;
+  }
+
+  .sidenav__list {
+    padding: 0;
+    margin-top: 85px;
+    list-style-type: none;
+  }
+
+  .sidenav__list-item {
+    padding: 20px 20px 20px 40px;
+    color: #ddd;
+  }
+
+  .sidenav__list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+</style>
+
+
+<aside class="sidenav">
+  <ul class="sidenav__list">
+    <li class="sidenav__list-item">Item One</li>
+    <li class="sidenav__list-item">Item Two</li>
+    <li class="sidenav__list-item">Item Three</li>
+    <li class="sidenav__list-item">Item Four</li>
+    <li class="sidenav__list-item">Item Five</li>
+  </ul>
+</aside>
+
+
+      <header class="header">
+        <div class="header__search">Search...</div>
+        <div class="header__avatar">Your face</div>
+      </header>
+
+      <aside class="sidenav">
+        <div class="sidenav__close-icon">
+          <i class="fas fa-times sidenav__brand-close"></i>
+        </div>
+        <ul class="sidenav__list">
+          <li class="sidenav__list-item">Item One</li>
+          <li class="sidenav__list-item">Item Two</li>
+          <li class="sidenav__list-item">Item Three</li>
+          <li class="sidenav__list-item">Item Four</li>
+          <li class="sidenav__list-item">Item Five</li>
+        </ul>
+      </aside>
+
+
+      // The very first element inside of the <main> parent container
+        <style>
+          .main-header {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+            height: 150px; /* Force our height since we don't have actual content yet */
+            background-color: #e3e4e6;
+            color: slategray;
+          }
+        </style>
+          // Main section responsive grid intro cards
+          <style>
+            .main-overview {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
+              grid-auto-rows: 94px;
+              grid-gap: 20px;
+              margin: 20px;
+            }
+            
+            .overviewcard {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 20px;
+              background-color: #d3d3;
+            }
+          </style>
+          
+          <div class="main-overview">
+            <div class="overviewcard">
+              <div class="overviewcard__icon">Overview</div>
+              <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+              <div class="overviewcard__icon">Overview</div>
+              <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+              <div class="overviewcard__icon">Overview</div>
+              <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+              <div class="overviewcard__icon">Overview</div>
+              <div class="overviewcard__info">Card</div>
+            </div>
+          </div>
+        <div class="main-header">
+          <div class="main-header__heading">Hello User</div>
+          <div class="main-header__updates">Recent Items</div>
+        </div>
+      <main class="main">
+        <div class="main-header">
+          <div class="main-header__heading">Hello User</div>
+          <div class="main-header__updates">Recent Items</div>
+        </div>
+
+        
+
+
+      <footer class="footer">
+      <div class="footer__copyright">&copy; 2020 spaced-capstone</div>
+      <div class="footer__signature">dashboard</div>
+    </footer>
+    </div>
+</body>
+</metahtml>
