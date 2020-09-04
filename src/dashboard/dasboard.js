@@ -1,3 +1,5 @@
+import $ from 'Jquery';
+
 const menuIconEl = $('.menu-icon');
 const sidenavEl = $('.sidenav');
 const sidenavCloseEl = $('.sidenav__close-icon');
@@ -20,3 +22,4 @@ menuIconEl.on('click', function () {
 sidenavCloseEl.on('click', function () {
   toggleClassName(sidenavEl, 'active');
 });
+Document.getElementsByClassName(sidenavCloseEl)

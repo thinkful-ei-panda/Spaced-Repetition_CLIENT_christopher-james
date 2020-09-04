@@ -6,6 +6,16 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+}
+
+@media only screen and (max-width: 40em) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 /* Assign grid instructions to our parent grid container, mobile-first (hide the sidenav) */
 .grid-container {
   display: grid;
